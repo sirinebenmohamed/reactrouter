@@ -1,0 +1,39 @@
+body {
+    background-color: #d0d8d7;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    
+}
+.card {
+    width:300px;
+    height: 500px;
+    background: transparent;
+    margin :20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 20px 30px 3px black;
+    transform: scale(0.95);
+    transition: all 0.5s;
+    -webkit-border-radius :10px;
+    -moz-border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1);
+    box-shadow: 0 5px 10px -12.125px black;
+}
+img {
+    width : 300px;
+    height : 250px;
+    border-radius: 10px;
+}
+.card-img-top{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+.card-img-top:hover{
+    transform: scale(1.8);
+}
+.overflow{
+    overflow: hidden;
+}
